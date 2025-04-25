@@ -2,7 +2,6 @@
 #define MY_UNIQUE_PTR_HPP
 #include <memory>
 
-
 template <typename T, typename Deleter = std::default_delete<T>>
 class _Munique_ptr
 {
